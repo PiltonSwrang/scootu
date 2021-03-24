@@ -1,0 +1,106 @@
+body {
+    background-color: #f7f7f7 !important;
+}
+.main h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.main .row {
+    margin: 20px 0;
+    padding: 0 80px;
+}
+@media (max-width:576px){
+    .main .row {
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+    .main .row p {
+        width: 100%;
+    }
+    nav {
+        padding: 0 35px !important;
+    }
+    img {
+        max-width: 100% !important;
+        margin: 20px 0;
+        object-fit: cover;
+    }
+    .card-holder {
+        margin: 100px 0;
+    }
+    footer {
+        padding: 0 10px !important;
+    }
+    .third .card-holder{
+        margin-top: 0px !important;
+    }
+    .form-floating {
+        width: 100% !important;
+    }
+    .login{
+        background-color: transparent !important;
+    }
+    #navBar .login a{
+        color: grey !important;
+    }
+}
+
+nav {
+    padding: 0 100px;
+}   
+nav a:hover{
+    font-weight: 600;
+    color: black ;
+    border-bottom: 2px solid #2e4a66;
+}
+nav ul a{
+    border-bottom: 2px solid transparent;
+} 
+.card-holder {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+img {
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.one {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    padding-left: 0px !important;
+    color: #333;
+    font-weight: 440;
+}
+footer {
+    margin: 20px 0;
+    padding: 0 80px;
+}
+.login {
+    border-radius: 20px;
+    background-color: red;
+}
+.login a{
+    color: white !important;
+}
+.login a:hover{
+    color: white ;
+    border-bottom: 2px solid transparent;
+}
+.demo {
+    background-color: white;
+}
+
+.form-floating {
+    width: 200px ;
+}
+.form-floating::selection{
+    border: 0px solid wheat;
+}
+
+
